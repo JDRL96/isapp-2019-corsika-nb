@@ -1,0 +1,34 @@
+RUNNR   1                               number of run
+EVTNR   1                               number of first shower event
+NSHOW   50                             number of showers to generate
+PRMPAR  1                               1=gamma, 14=proton, ....
+ESLOPE  -2.00                           slope of primary energy spectrum
+ERANGE  1000 1000                      energy range of primary particle (GeV)
+THETAP  0.0 0.0                        range of zenith angle (degree)
+PHIP    0.0 20.0                       range of azimuth angle (degree)
+SEED    21000801   0   0                  seed for 1. random number sequence
+SEED    21080002   0   0                  seed for 2. random number sequence
+SEED    21100003   0   0                  seed for 3. random number sequence
+OBSLEV  410.E3                          observation level (in cm)
+ELMFLG  F   T                           em. interaction flags (NKG,EGS)
+RADNKG  200.E2                          outer radius for NKG lat.dens.distr.
+ARRANG  0.                              rotation of array to north
+FIXHEI  0. 0                            first interaction height & target
+FIXCHI  0.                              starting altitude (g/cm**2)
+MAGNET  27.497  29.473                    magnetic field 0
+HADFLG  0  0  0  0  0  2                flags hadr.interact.&fragmentation
+ECUTS   0.3  0.05  0.0003 0.0003       energy cuts for particles
+MUADDI  F                               additional info for muons
+MUMULT  T                               muon multiple scattering angle
+LONGI   F  20.  F  F                    longit.distr. & step size & fit & out
+MAXPRT  0                               max. number of printed events
+ECTMAP  1.E4                            cut on gamma factor for printout
+STEPFC  1.0                             mult. scattering step length fact.
+DEBUG   F  6  F  1000000                debug flag and log.unit for out
+DIRECT  gamma/
+DATDIR  /home/isapp/corsika/corsika-76900/run/
+PAROUT  T  F                            write particles on the ground
+DATBAS  T                               ywrite .dbase file
+USER    isapp                            user phansen para Supercluster
+ATMOD 22 Atmospheric model
+EXIT
