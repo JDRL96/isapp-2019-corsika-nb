@@ -1,5 +1,6 @@
 # corsika
 DAT*
+tables.dat
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
